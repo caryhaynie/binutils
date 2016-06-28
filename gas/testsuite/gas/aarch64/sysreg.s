@@ -16,6 +16,7 @@
 	mrs x0, id_mmfr1_el1
 	mrs x0, id_mmfr2_el1
 	mrs x0, id_mmfr3_el1
+	mrs x0, id_mmfr4_el1
 	mrs x0, id_isar0_el1
 	mrs x0, id_isar1_el1
 	mrs x0, id_isar2_el1
@@ -26,3 +27,6 @@
 	mrs x0, s3_0_c12_c12_0
 	mrs x0, s3_0_c4_c6_0
 	msr s3_0_c4_c6_0, x0
+
+	mrs x0, s2_1_c0_c3_0
+	msr s2_1_c0_c3_0, x0
