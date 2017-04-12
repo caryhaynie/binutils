@@ -39,4 +39,15 @@ TAGS.sub
 core
 !core/
 
+# ignore the generated localization header
+intl/libintl.h
+
 lost+found
+builds
+*.a
+*.exe
+*.stamp
+stamp-*
+Makefile
+**/po/Makefile.in
+
